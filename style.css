@@ -111,8 +111,9 @@ header {
 }
 
 .logo-text img {
-    height: 100px;
-    width: 510px;
+    height: auto;
+    width: 180px;
+    max-width: 80%;
 }
 
 /* .logo-text span {
@@ -782,12 +783,27 @@ footer {
         font-size: 3rem;
     }
 
+    .menu-grid ,@media (max-width: 768px) {
     .menu-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px,.video-hero {
+    height: auto;
+    min-height: 80vh;
+    padding: 4rem 0;
+}
+
+.hero-content {
+    margin: 0 1rem;
+}
+ 
     .header-content {
         flex-direction: row;
         justify-content: space-between;
@@ -884,4 +900,5 @@ footer {
         width: 50px;
         height: 50px;
     }
+
 }
