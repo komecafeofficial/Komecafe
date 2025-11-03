@@ -4,6 +4,5 @@
   <i>Your orders will be active very soon</i>  
   <br>
   📞 <b>Call 0541678088</b>
-  <br><br>
-  <img src="image.png" width="600" alt="komecafe">
-</p>
+  
+----------------------![alt text](image.png)
