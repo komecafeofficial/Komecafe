@@ -1,7 +1,9 @@
-<h1 align="center"><b>Kome Cafe</b></h1>
+<h1 align="center" style="font-size: 45px;"><b>Kome Cafe</b></h1>
 
 <p align="center">
-  Your orders will be active very soon  
+  <i>Your orders will be active very soon</i>  
   <br>
-  📞 Call <b>0541678088</b>
+  📞 <b>Call 0541678088</b>
+  <br><br>
+  <img src="image.png" width="600" alt="komecafe">
 </p>
